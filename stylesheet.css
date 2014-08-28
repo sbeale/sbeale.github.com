@@ -3,7 +3,7 @@
     font-size:1em;
     font-weight:normal;
     font-famil:Arial,Sans-serif
-    color#000000;/*black*/
+    color#FFFFFF;/*white*/
     text-align:left;
     }
     h1{
@@ -12,5 +12,5 @@
     color:0000ff;/*blue*/
     text-align:center;
     }
-    color{red}
-    background-color{0,0,0}
+    background{
+       color#000000;}/*black*/
