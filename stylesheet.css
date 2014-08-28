@@ -12,5 +12,22 @@
     color:0000ff;/*blue*/
     text-align:center;
     }
-    background{
-       color#000000;}/*black*/
+    h2 { 
+	font-size: 1.4em;
+	color: #CCCCCC;
+}
+div { 
+	border: 1px solid black;
+	padding: 1em;
+	margin: 1em;
+	background-color: #4312AE;
+}
+p { 
+	font-style: italic;
+	background-color: #7446D7;
+	margin: 1em;
+	padding: 1em;
+}
+a { 
+	color: #FFFFFF;
+}
