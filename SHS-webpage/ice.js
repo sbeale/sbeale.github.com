@@ -48,7 +48,7 @@ ICE.useConfig = true;
 		 * Gets the relative path based on the ice.js includes.
 		 */
 		ICE.getSiteRoot = function() {
-			var searchPath = "includes/ice/ice.js";
+			var searchPath = "ice.js";
 			var s = null;
 			var url = '';
 			var scripts = document.getElementsByTagName("script");
