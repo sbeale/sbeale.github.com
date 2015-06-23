@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<html xmlns:ice="http://ns.adobe.com/incontextediting"><!-- InstanceBegin template="/Templates/webpage template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ <!-- content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"
+  */--><!-- InstanceBeginEditable name="edittitle" -->
+<title>EditRegion1</title>
+<script src="includes/ice/ice.js" type="text/javascript"></script>
+ <!-- InstanceEndEditable -->
+<link rel="shortcut icon" href="Resources/favicon.ico" type="image/x-icon" />
+
+
+<!--JavaScript (for Nav Bar)--> 
+
+<script>
+var timeout  = 5000                          
+var closetimer	= 0;
+var ddmenuitem	= 0;
+
+
+
+// open hidden layer
+function clear(){
+	ddmenuitem.style.display = 'none';
+	isOpen = false;
+	var timeout	= 5000;
+		
+	
+}
+
+function mopenc(id){
+	
+	//I cannot get this to work
+	if (ddmenuitem){ clear();
+		}
+				ddmenuitem = document.getElementById(id);
+		ddmenuitem.style.display = 'block';
+		var timeout	= 5000;
+		
+	
+		isOpen = true; 
+			
+}
+
+
+
+
+
+
+function mclose()
+{
+	if(ddmenuitem){ 
+		clear();
+	}
+	
+}
+
+// go close timer
+function mclosetime()
+{
+		var timeout	= 2500;  
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+		isOpen = true;
+		var timeout	= 2500;  
+		
+	}
+}
+
+	</script>
+    
+<link href="Stylessheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+
+<!--header-->
+<div id="header">
+<table id="linkt">
+<tr id="noborder">
+	<td id="pic"><a href="index.html">
+<img src="Resources/Logo.png" alt="Stonington Bears Logo and Title" ></a> </td>
+    <td id="links" ><div class="menu-wrap">
+    <nav class="menu">
+        <ul class="clearfix">
+            <li><a href="#">Administration</a>
+            	<ul class="sub-menu">
+                    <li><a href="administration_team.html">Administrative Team</a></li>
+               <li><a href="administration_bellSchedule.html"  >Bell Schedule</a></li>
+               <li><a href="http://www.stoningtonschools.org/page.cfm?p=2613" target="_blank"  >Bus Schedule</a></li>
+        	   <li><a href="resources/administration/2015-2016_School_Calendar.pdf" target="_blank"  >District Calendar<nobr>(2015-16)</nobr></a></li>
+ 			   <li><a   href= "administration_formsforparents.html">Forms</a></li>
+             <li><a   href="administration_staffpage.html">Forms and Links for Staff</a></li>
+               <li><a   href="administration_missionstatement.html">Mission Statement</a></li>
+               <li><a   href="https://succeed.naviance.com/" target="_blank">Naviance</a></li>
+  <li><a   href="administration_secuirty.html">School Security</a></li>
+               <!--added--><li>
+<a   href="https://docs.google.com/a/stoningtonschools.org/forms/d/1mnmU8-ojXp9OcTmDwcMWSu0wo5_ykIjXPuDzVALlSSo/viewform?formkey=dFNhc3NZQUk4dFQyWDRfQkY2V09NMEE6MA" target="_blank">Report an Act of Bullying</a>
+</li>
+
+<li><a   href="administration_schoolsong.html">Song</a></li>
+
+
+  			
+   		    	<li><a   href="http://www.stoningtonschools.org" target="_blank">Stonington Public Schools</a></li>
+ 				<li><a   href="administration_newstudentguidelines.html">Student Guidelines</a></li>
+				<li><a   href="resources/administration/SHS_Agenda_2014-2015.pdf" target="_blank">Student Agenda <nobr>14-15</nobr></a></li> 
+                </ul></li>
+            <li>
+               <a href="#">Academics</a>
+ 
+                <ul class="sub-menu">
+                    <li ><a href="academics_honorroll.html">Academic Achievements</a></li>
+                <li><a   href="academic_departments.html" >Academic Departments</a></li>
+   				<li><a   href="academics_advisory.html">Advisory Program</a></li>
+                		<!--<li><a   href="awards.html">Awards & Recognition</a></li>-->
+    			<li><a   href="academics_coursedescription.html">Course Descriptions</a></li>
+
+   				<li><a   href="Resources/Academics_Resources/Rubrics/ESL_Rubrics_1-6.pdf" target="_blank">ESL Rubrics</a></li>
+   				<li><a   href="academics_examschedule.html">Exam Schedule</a></li>
+                <li><a   href="Resources/Academics_Resources/Handbooks/Opportunities_Booklet_15_16.pdf"  target="_blank">Opportunities Handbook <nobr>2015-2016</nobr></a></li>
+   				<li><a   href="Resources/Academics_Resources/PDFs/Progress Reports and Report Cards Online.pdf"  target="_blank">Report Cards &amp; Progress Reports</a></li>
+                  <li><a   href="academics_senior_project.html" target="_blank">Senior Project</a></li>
+  				  <li><a   href="Resources/School_Webpage_Files/Summer_work_2015/SummerReading20151.docx.pdf" target="_blank">Summer Reading</a></li>
+                <li><a   href="http://www.educere.net/myCourses.asp?pageID=5199.2110" target="_blank">Summer School</a></li>
+                
+                 <li><a   href="academics_summerwork.html">Summer Work</a></li>
+                  <li><a   href="http://turnitin.com/" target="_blank">Turnitin</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Athletics</a>
+            	<ul class="sub-menu">
+                    <li><a   href="athletics_announcements.html">Announcements</a></li>
+                    <li><a   href="athletics_directors.html">Athletics Directors</a></li>
+                    
+                <li><a   href="Resources/Athletics_Resources/Handbook/SHS_Athletic_Handbook_-_2014-15.pdf" target="_blank">Athletics Handbook</a></li>
+                <li><a   href="athletics_schedule.html">Athletic Schedule</a></li>
+                <li><a   href="athletics_boosters.html">Boosters Club</a></li>
+				<li><a   href="http://ciacsports.com/site/" target="_blank">CIAC Site</a>
+</li>
+				<li><a   href="athletics_coaches.html">Coaches</a></li>
+                <li><a   href=
+"http://www.signupgenius.com/go/10c0545afac28a0fe3-shsbears" target="_blank">Concession <nobr>Sign-Up</nobr></a></li>
+				<li><a   href="Resources/Athletics_Resources/Forms/CIAC_Concussion_Parent_Consent_form_2014-15.pdf" target="_blank">Concussion Form</a></li>
+				<li><a   href="http://www.eccathletics.org/" target="_blank">ECC Site</a>
+</li>
+				
+				<li><a   href="Resources/Athletics_Resources/Forms/TransportPermissionForm.pdf" target="_blank">Transportation Form</a></li>
+               <li><a href="https://twitter.com/StoningtonSport" class="twitter-follow-button" data-show-count="false"></a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+				
+                </ul></li>
+           
+            <li><a href="#">Activities</a>
+            	<ul class="sub-menu">
+                     <li><a   href="activities_Allianceofacceptance.html">Alliance for Acceptance</a></li>
+            	<li><a   href="activities_bearbuddies.html">Bear Buddies</a></li>
+				<li><a   href="activities_Bearitones.html">Bearitones</a></li>
+                <li><a   href="activities_Brownandwhite.html">Brown & White</a></li>
+                <li><a   href="activities_deca.html">DECA</a></li>
+                <li><a   href="activities_flagsquad.html">Flag Squad</a></li>
+                <li><a   href="activities_frenchhonorsociety.html">French Honor Society</a></li>
+       
+				<li><a   href="activities_helpinghaiti.html">Helping Haiti</a></li>
+                <li><a   href="activities_Interact.html">Interact</a></li>
+                <li><a   href="activities_linkcrew.html">Link Crew</a></li>
+				<li><a   href="activities_mathteam.html">Math Team</a></li>
+				<li><a   href="activities_nhs.html">National Honor Society</a></li>
+                <li><a   href="activities_noëlclub.html">Noël</a></li>
+                <li><a   href="activities_keynotes.html">Keynotes</a></li>
+          	<li><a   href="activities_roboticsclub.html">Robotics</a></li>
+				<li><a   href="activities_studentgoverment.html">Student Government</a></li>
+				
+				<li><a   href="activities_tri-m.html">Tri-M</a></li>				<li><a   href="activities_unifiedsports.html">Unified Sports</a></li>
+				<li><a   href="activities_UnifiedTalents.html">Unified Talents</a></li>
+                
+                </ul></li>
+            <li><a href="https://sites.google.com/a/stoningtonschools.org/shs-guidance-page/">Guidance</a></li>
+        </ul>
+    </nav>
+</div>
+     </td>
+     <!--<td id="pic"><a href="index.html">
+<img src="../Resources/Logo.png" alt="Stonington Bears Logo and Title" style="visibility:hidden;"></a>
+     </td>
+    <td id=pic><a href="index.html">
+<img src="../Resources/Logo.png" alt="Stonington Bears Logo and Title" ></a> </td>
+    -->
+</tr>
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+<table id="linkt">
+<tr id="noborder">
+<td id="pic" style="background-color:#a67c52;vertical-align:top;text-align:left;">
+<ul style="padding:0;marigin:0;">
+<li><a href="administration_announcements.html">Announcements</a></li>
+<li>
+<a href="http://shsbrownandwhite.org/">
+Brown & White</a>
+</li>
+<li>
+<a href="calendar.html">
+Calendar of Events at SHS</a>
+</li>
+          	 <li><a href="directions.html">Directions to the School</a></li> 
+           <li><a href="faculty_contact.html">Faculty Contacts</a></li>
+                 <li><a href="lmc.html">Library Media Center</a></li>
+                 <li>PowerSchool
+                   <ul>
+                 	<li><a href="https://stonington.powerschool.com/public/">Parent & Student</a></li>
+                 	<li><a href="https://stonington.powerschool.com/teachers/pw.html">Teachers</a></li>
+                    <li><a href="https://stonington.powerschool.com/subs/pw.html">Substitutes</a></li>
+                    </ul>
+                 
+                 </li>
+                    <li>
+<a href="https://docs.google.com/a/stoningtonschools.org/forms/d/1mnmU8-ojXp9OcTmDwcMWSu0wo5_ykIjXPuDzVALlSSo/viewform?formkey=dFNhc3NZQUk4dFQyWDRfQkY2V09NMEE6MA" target="_blank">Report an Act of Bullying</a>
+</li>
+                 <li>
+<a href="http://stoningtoncart.rbapparelplus.com/" target="_blank">
+School Store</a>
+</li><!--
+      			 <li><a href="showcase.html">Student Showcase</a></li>-->
+                 <li><a href="http://www.casciac.org/ytt/?sc=Stonington&hc=CC0000">Today's Athletic Events</a></li>
+
+        		 <li><a href="website_managers.html">Website Managers</a></li>
+  
+
+</ul>
+
+
+
+</td>
+<td id="side">
+
+
+
+
+
+
+
+
+<!--information--><!-- InstanceBeginEditable name="editbody" -->
+<div id="contain">
+<div id="infobox1" ice:editable="*">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+<!-- InstanceEndEditable -->
+
+    </td>
+    </tr>
+    </table>
+
+    
+<div id="footer">
+	<h3>Stonington High School</h3>
+    <h3>176 South Broad Street | Pawcatuck | Connecticut | 06379 | <a href="http://stoningtonhigh.org/">www.stoningtonhigh.org</a> </h3>
+        <h3>PHONE <a href="tel:+8605995781" >860.599.5781</a> |
+ FAX <a href="tel:+4014805212" id="phone">860.599.5784</a> |
+        Guidance <a href="tel:+8605992180" >860.599.2180</a> |         <a href="https://twitter.com/SHSadStaff" class="twitter-follow-button" data-show-count="false" >   </a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> |
+
+<div class="fb-follow" data-href="https://www.facebook.com/pages/Stonington-High-School/714559195259553" data-colorscheme="light" data-layout="button" data-show-faces="false"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+ </h3>
+ </div>
+ 
+ <div id="managementcontact">
+ <p>Webmaster's email<br>
+ <a href="mailto:shswebmaster@stoningtonschools.org">shswebmaster@stoningtonschools.org</a></p>
+ 
+</div>
+
+</body>
+<!-- InstanceEnd --></html>
