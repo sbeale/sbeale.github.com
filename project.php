@@ -1,421 +1,638 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
-<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
-<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="" xmlns:ice="http://ns.adobe.com/incontextediting"><!-- InstanceBegin template="/Templates/shs template.dwt" codeOutsideHTMLIsLocked="false" -->
-<!--<![endif]-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<title>Stonington High Mobile Site</title>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="../../Resources/Static/Graphics/favicon.ico" type="image/x-icon" />
-
-
-
-
-
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>SHS: Project Safe Grad</title>
-<!-- InstanceEndEditable -->
-<link href="../../style/Layout css.css" rel="stylesheet" type="text/css">
-<link href="../../style/Fonts css.css" rel="stylesheet" type="text/css">
-<link href="../../style/General css.css" rel="stylesheet" type="text/css">
-<!-- 
-To learn more about the conditional comments around the html tags at the top of the file:
-paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
-
-Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
-* insert the link to your js here
-* remove the link below to the html5shiv
-* add the "no-js" class to the html tags at the top
-* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
--->
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<script src="../../js/respond.min.js"></script>
-<script src="../../includes/ice/ice.js" type="text/javascript"></script>
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
-</head>
-<body>
-<div class="gridContainer clearfix">
-  <div id="header">
-    <div id="logo">
-    	<a href="../../index.html"><img src="../../Resources/Static/Logo.png" alt="School Icon"></a>
-    </div>
-    <div id="nav-top">
-    	<div class="menu-wrap">
-   		 <nav class="menu">
-               <ul class="clearfix">
-                <li>
-                    <a href="#">Administration</a>
-                    <ul class="sub-menu">
-                    	
-                        <li id="first"><a href="../../admin/admin_acheivements.html">Academic Achievements</a></li>
-                        <li><a href="../../admin/admin_team.html">Admin Team</a></li>
-                        
-                        <li><a href="#">Building Usage</a>
-                        	<ul class="sub-sub-menu">
-                                <li><a href="http://fs-stonington.rschooltoday.com/authentication/credential/requesterlogin" target="_blank" >Calendar</a></li>
-                                <li><a href="https://www.communityuse.com/MyOrganization.asp?access=no" target="_blank" > Form</a></li>
-                        	</ul>
-                        </li>
-                        <li><a href="#"> General Information</a>
-                        	<ul class="sub-sub-menu">
-                            			<li><a href="../../admin/general_information/admin_advisory.html" >Advisory</a></li>
-                            	        <li><a href="../../admin/general_information/missionstatement.html" >Mission <br>Statement</a></li>
-                                        <li><a href="../../admin/general_information/admin_security.html" >Security</a></li>
-                                        <li><a href="../../admin/general_information/admin_song.html" >Song</a></li>
-                            </ul>
-                        </li>    
-                        <li><a href="../../Resources/Static/Administration/ESL_Rubrics_1-6.pdf" target="_blank" >ESLs</a></li>
-                        <li><a href="https://docs.google.com/a/stoningtonschools.org/forms/d/1mnmU8-ojXp9OcTmDwcMWSu0wo5_ykIjXPuDzVALlSSo/viewform?formkey=dFNhc3NZQUk4dFQyWDRfQkY2V09NMEE6MA" target="_blank" >Report An Act of Bullying</a></li>
-                        <li><a href="#" >Schedules</a>
-                        	<ul class="sub-sub-menu">
-                            	 <li><a href="../../admin/schedules/admin_bellschedule.html">Bell Schedule</a></li>
-                                 <li><a href="../../Resources/Live/Administration/Documents/School_Calendar.pdf" target="_blank" >District Calender</a></li>
-                                 <li><a href="../../admin/schedules/admin_examschedule.html">Exam Schedule</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="http://www.stoningtonschools.org/" >Stonington <br>Public Schools</a></li>
-                        <li><a href="#" >Staff Links</a>
-                        	<ul class="sub-sub-menu" >
-                           
-                                <li><a href="http://video.stoningtonschools.org/show-videos?g=0b855f07&page=1" target="_blank">BLTV</a></li>
-                                <li><a href="https://discipline.educatorshandbook.com/" target="_blank">Discipline Report</a></li>
-                                <li><a href="mailto:SWeber@stoningtonschools.org" target="_blank">Email Lesson Plans</a></li><!-- add liz-->
-                          	    <li><a href="http://www.stoningtonschools.org/page.cfm?p=2479" target="_blank">Forms</a></li>
-                                <li><a href="http://www.protraxx.com/" target="_blank">ProTraxx</a></li>
-                                <li><a href="#">Teacher <br>Handbook</a></li>
-                                
-                              </ul>
-                        </li>
-                        
-                        
-                       
-                  </ul>
-                </li>
-                <li>
-                    <a href="#">Parents</a>
-     
-                    <ul class="sub-menu">
-                    	<li><a href="#">Forms</a>
-                        	<ul class="sub-sub-menu" style="top:0px;">
-                            	<li><a href="../../Resources/Static/Parents/Contract- Athletic and Extracurricular.pdf" target="_blank">Athletics &amp; Extra Curricular Contract</a></li>
-                           		 <li><a href="../../Resources/Static/Parents/Acetaminophen and Ibuprofen.pdf" target="_blank">Acetaminophen &amp; Ibuprofen Forms</a></li>
-                           		 <li><a href="../../Resources/Static/Parents/Emergency Care Plan and Medical Authorization.pdf" target="_blank">Emergency Care Plan &amp; Medical Authorization Form</a></li>
-                           	     <li><a href="../../Resources/Static/Parents/Emergency_Information.pdf" target="_blank">Emergency Information Form</a></li>
-                       			 <li><a href="../../Resources/Static/Parents/FieldTripPermissionSlip.pdf" target="_blank">Field Trip Permission Slip</a></li>
-                                 <li><a href="../../Resources/Archive/Prelaunch/Parents/Authorization_for_the_Administration_of_Medicine_2012.pdf">Medicine Administration Authorizations</a></li>
-                            </ul>
-                    
-                        </li>
-                         <li><a href="#">Project Safe Grad</a>
-                        <ul class="sub-sub-menu"> 
-                        <li><a href="parents_projectsafegrad.html">FAQ</a></li>
-                         <li><a href="http://www.shs2016projectsafegrad.blogspot.com/" target="_blank">Blog</a></li>
-                         </ul>
-                         </li>
-                        <li><a href="../../Resources/Static/Parents/Progress Reports and Report Cards Online.pdf" target="_blank">Report Cards</a></li>
-                        <li><a href="../../Resources/Static/Parents/SeniorPrivilege.pdf" target="_blank">Senior Priveledge</a></li>
-                        <li><a href="../../Resources/Static/Parents/CT_Health_Assesment.pdf" target="_blank">Statement of CT Health Assesment</a></li>
-                        
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Students</a>
-                    
-                    <ul class="sub-menu">  
-							<li><a href="../../students/students_coursedescriptions.html">Course Descriptions</a></li>
-	                       <li><a href="../../admin/schedules/admin_examschedule.html">Exam Schedule</a></li>
-                           <li><a href="#">Forms</a>
-                           		<ul class="sub-sub-menu">
-                                   <li><a href="../../Resources/Static/Students/Contract- Athletic and Extracurricular.pdf" target="blank">Athletics and Extra Curricular Contract</a></li>
-                                   <li><a href="../../Resources/Static/Students/StudentParkingApplication.pdf" target="_blank">Parking Application</a></li>
-                                   <li><a href="../../Resources/Static/Students/SeniorPrivilege.pdf" target="_blank">Senior Privilege</a></li>
-                                   <li><a href="../../Resources/Static/Students/WorkingPapers.pdf" target="_blank">Working Papers</a></li>
-                               </ul>
-                           </li>
-                           <li><a href="https://www.sites.google.com/site/stoningtonnhs/">NHS</a></li>
-                           <li><a href="../../Resources/Live/Students/Opportunities_Book.pdf" target="_blank">Opportunities Handbook</a></li>
-                           <li><a href="#">Senior Projects</a>
-                           	<ul class="sub-sub-menu">
-                           		<li><a href="../../Resources/Archive/Prelaunch/Students/Senior Projects/Capstone_Presentation.pdf">Capstone Presentation</a></li>
-                                <li><a href="../../Resources/Archive/Prelaunch/Students/Senior Projects/SHS STUDENT HANDBOOK 2015-2016.pdf" target="_blank">Senior Project Handbook</a></li>
-                          	 </ul>
-                           		</li>
-                           <li><a href="../../Resources/Live/Students/SHS_Agenda.pdf" target="_blank">Student Agenda</a></li>
-                           <li><a href="../../students/students_studentguidelines.html">Student Guidelines</a></li>
-                           <li><a href="#">Summer Information</a>
-                        	   <ul class="sub-sub-menu">
-                                   <li><a href="../../Resources/Live/Students/SummerReading2014.pdf" target="_blank">Summer Reading</a></li>
-                                   <li><a href="https://www.educere.net/myCourses.asp?pageID=5199.2110">Summer School</a></li>
-                                   <li><a href="../../students/summer/students_summerwork.html">Summer Work</a></li>
-                               </ul>
-						   </li>
-                           <li><a href="http://TurnItIn.com">TurnItIn.com</a></li>      
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Directory</a>
-                    <ul class="sub-menu">
-                    	<li><a href="#">Administration</a>
-                        	   <ul class="sub-sub-menu" style="top:0px;">
-                    				<li><a href="#">Mark Friese</a></li>
-                                    <li><a href="#">Neil Curland</a></li>
-                                    <li><a href="#">Margo Crowley</a></li>
-                                    <li><a href="#">Manuel MacDonald</a></li>
-                                    <li><a href="#">Jason Jones</a></li>
-                                    <li><a href="#">Arthur Howe</a></li>
-                                    <li><a href="#">AnneFay Sullivan</a></li>
-                                    <li><a href="#">Jean Bradanini</a></li>
-                                    <li><a href="#">Andrea Nardone</a></li> 
-                               </ul>
-                        </li>
-                        
-                        <li><a href="#">Guidance</a>
-                            <ul class="sub-sub-menu">
-                                <li><a href="#">Holly Sadd</a></li>
-                                <li><a href="#">Carrie Dentch</a></li>
-                                <li><a href="#">Maureen Steinhoff</a></li>
-                                <li><a href="#">Margo Crowley</a></li>
-                                <li><a href="#">Jennifer Sullivan</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Support Staff</a>
-                        	<ul class="sub-sub-menu">
-                            </ul>
-                        </li>
-                        <li><a href="#">Teachers A-Z</a>
-                        	<ul class="sub-sub-menu">
-                            </ul>
-                        </li>
-    
-                        <li><a href="#">Teachers By Subject</a></li>
-                        	<ul class="sub-sub-menu">
-                            
-                            </ul>
-                        </li>
-                     </ul>
-                </li>
-                <li>
-                    <a href="#">Athletics</a>
-     
-                    <ul class="sub-menu">
-                        <li><a href="../../athletics/athletic_announcements.html">Athletic Announcements</a></li>
-                        <li><a href="../../athletics/athletic_events.html">Athletic Events</a></li>
-                        <li><a href="http://ciacsports.com/site/">CIAC</a></li> 
-                        <li><a href="../../athletics/athletic_boosters.html">Boosters</a></li>
-                        <li><a href="../../athletics/athletic_coaches.html">Coaches</a></li>
-                        <li><a href="../../athletics/athletic_directors.html">Directors</a></li>
-                        <li><a href="http://www.eccathletics.org/">ECC Site</a></li>
-                        <li><a href="#">Forms</a>
-                        	<ul class="sub-sub-menu">
-                        		<li><a href="../../Resources/Static/Athletics/CIAC Cardiac Arrest Consent Form.pdf" target="_blank">Cardiac Arrest Form</a></li>
-                        		<li><a href="http://www.signupgenius.com/go/10c0545afac28a0fe3-shsbears" target="_blank">Concessions Sign-up</a></li>
-                            	<li><a href="../../Resources/Static/Athletics/CIAC Concussion Consent.pdf" target="_blank">Concussion Form</a></li>
-                        		<li><a href="../../Resources/Static/Athletics/SportsCandHealthQues.pdf" target="_blank">Health Questionare</a></li>
-                        		<li><a href="../../Resources/Static/Athletics/TransportPermissionForm.pdf" target="_blank">Transportation Form</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="../../Resources/Static/Athletics/Athletic Handbook.pdf" target="_blank">Handbook</a></li>
-                        <li><a href="../../athletics/athletic_halloffame.html">Hall of Fame</a></li>
-                        <li><a href="#">App Download</a>
-                            <ul class="sub-sub-menu">
-                                <li><a href="https://play.google.com/store/apps/details?id=com.app_sm007.layout&hl">Android</a></li>
-                                <li><a href="https://itunes.apple.com/us/app/stonington-bears-athletics/id1040774821?mt=8">iOS</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="https://twitter.com/StoningtonSport" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @StoningtonSport</a>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="java/style.css">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1"  />
+<title>Untitled Document</title>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</li>
-                        </ul>
-                </li>
-                <li>
-                    <a href="#">Guidance </a>
-     
-                    <ul class="sub-menu">
-                        <li><a href="#">Grade</a>
-            				<ul class="sub-sub-menu" style="left:-100%; top:0px;">
-                            	<li><a href="../../guidance/grade/guidance_grade9.html">Grade 9</a></li>
-                                <li><a href="../../guidance/grade/guidance_grade10.html">Grade 10</a></li>
-                                <li><a href="../../guidance/grade/guidance_grade11.html">Grade 11</a></li>
-                                <li><a href="../../guidance_grade12">Grade 12</a></li>
-                            </ul>
-                        </li> 
-                        <li><a href="#">Transcript Requests</a></li>
-                        <li><a href="#">Duel Enrollment</a>
-                        	<ul class="sub-sub-menu" style="left:-100%;">
-                            	<li><a href="#">AP</a></li>
-                                <li><a href="#">ECE</a></li>
-                                <li><a href="#">CCP</a></li>
-                                <li><a href="#">NEIT</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Career Center</a></li>
-                        <li><a href="#">Naviance</a></li>
-                        <li><a href="#">SAT and ACT</a></li>
-                        <li><a href="../../guidance/guidance_ssp.html">Student Success Plan</a></li>
-                        <li><a href="#">College and Post Grad Planning</a>			<ul class="sub-sub-menu" style="left:-100%;">              <li><a href="#">NCAA</a></li>
-                       
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-   		 </nav>
+
+</head>
+<script>
+
+function display(tier){
+switch(tier){
+		
+		case 2:
+				document.getElementById('t3am').style.left = "-100%";
+				document.getElementById('t3abu').style.left = "-100%";
+				document.getElementById('t3agi').style.left ="-100%";
+				document.getElementById('t3as').style.left ="-100%";
+				document.getElementById('t3asl').style.left ="-100%";
+				document.getElementById('t3gg').style.left = "-100%";
+				document.getElementById('t3pf').style.left = "-100%";
+				document.getElementById('t3sf').style.left ="-100%";
+				document.getElementById('t3ppsg').style.left = "-100%";
+				document.getElementById('t3ssi').style.left = "-100%";
+				document.getElementById('t3gde').style.left ="-100%";
+				document.getElementById('t3ath').style.left ="-100%"
+				document.getElementById('t3atf').style.left ="-100%"
+				display(10.1);
+				break;
+		case 10:
+				var x = document.getElementsByClassName("t2");
+				var i;
+				for (i = 0; i < x.length; i++) {
+    				x[i].style.overflow = "hidden";
+				}
+				break;
+				display(.1);
+				display(.2);
+				display(.3);
+				display(.4);
+				display(.5);
+				display(.6);
+		case 10.1:
+				var x = document.getElementsByClassName("t2");
+				var i;
+				for (i = 0; i < x.length; i++) {
+    				x[i].style.overflow = "auto";
+				}
+				break;
+		case 1:
+				if(document.getElementById('t2a').style.left == "2%"||
+				document.getElementById('t2d').style.left == "2%"||
+				document.getElementById('t2g').style.left == "2%"||
+				document.getElementById('t2s').style.left == "2%"||
+				document.getElementById('t2at').style.left == "2%"||
+				document.getElementById('t2p').style.left == "2%")
+				{
+				document.getElementById('t1').style.left = "2%";
+				document.getElementById('t2a').style.left = "-100%";
+				document.getElementById('t2at').style.left = "-100%";
+				document.getElementById('t2d').style.left = "-100%";
+				document.getElementById('t2g').style.left = "-100%";
+				document.getElementById('t2p').style.left = "-100%";
+				document.getElementById('t2s').style.left = "-100%";
+				display(2);
+				}
+				else{
+					document.getElementById('t1').style.left = "-100%"
+				}
+				
+				break;
+		case 0:/*opens nav*/
+				if(document.getElementById('t1').style.left < "2%"){
+				document.getElementById('t1').style.left = "2%";
+				document.getElementById('t2a').style.left = "-100%";
+				document.getElementById('t2d').style.left = "-100%";
+				document.getElementById('t2g').style.left = "-100%";
+				document.getElementById('t2p').style.left = "-100%";
+				document.getElementById('t2at').style.left ="-100%";
+				document.getElementById('t2s').style.left = "-100%";
+				display(2);
+				}
+				else if(document.getElementById('t1').style.left == "2%"){
+				document.getElementById('t1').style.left = "-100%";
+				document.getElementById('t2a').style.left = "-100%";
+				document.getElementById('t2d').style.left = "-100%";
+				document.getElementById('t2at').style.left = "-100%";
+				document.getElementById('t2g').style.left = "-100%";
+				document.getElementById('t2p').style.left ="-100%";
+				document.getElementById('t2s').style.left = "-100%";
+				display(2);
+				}
+				break;
+		case .1:/*opens administration*/
+				if(document.getElementById('t2a').style.left < "2%"){
+					document.getElementById('t2a').style.left = "2%"
+				}
+				else if(document.getElementById('t3am').style.left == "2%"||
+				document.getElementById('t3abu').style.left == "2%"||
+				document.getElementById('t3agi').style.left == "2%"||
+				document.getElementById('t3as').style.left == "2%"||
+				document.getElementById('t3asl').style.left == "2%"){
+					display(2);
+				}
+				else if(document.getElementById('t3am').style.left < "2%"&&
+				document.getElementById('t3abu').style.left < "2%"&&
+				document.getElementById('t3agi').style.left < "2%"&&
+				document.getElementById('t3as').style.left < "2%"&&
+				document.getElementById('t3asl').style.left < "2%"){
+					document.getElementById('t2a').style.left = "-100%"
+				}
+				break;
+			case .11:
+					
+					document.getElementById('t3am').style.left = "2%"
+					display(10);
+					
+					var myDiv = document.getElementById('t2a');
+					myDiv.scrollTop = 0;
+					break;
+			case .13:
+					
+					document.getElementById('t3abu').style.left = "2%"
+					display(10);
+					
+					var myDiv = document.getElementById('t2a');
+					myDiv.scrollTop = 0;
+					break;
+			case .15:
+					document.getElementById('t3agi').style.left = "2%"	
+					display(10);
+					
+					var myDiv = document.getElementById('t2a');
+					myDiv.scrollTop = 0;
+					break;
+			case .17:	
+					document.getElementById('t3as').style.left = "2%"	
+					display(10);
+					
+					var myDiv = document.getElementById('t2a');
+					myDiv.scrollTop = 0;
+					break;
+			case .19:	
+					document.getElementById('t3asl').style.left = "2%"	
+					display(10);
+					
+					var myDiv = document.getElementById('t2a');
+					myDiv.scrollTop = 0;
+					break;
+		case .2:/*opens parents*/
+				if(document.getElementById('t2p').style.left < "2%"){
+					document.getElementById('t2p').style.left = "2%"
+				}
+				else if(document.getElementById('t3pf').style.left == "2%"||
+				document.getElementById('t3ppsg').style.left == "2%"){
+					display(2);
+				}
+				else if (document.getElementById('t3pf').style.left  < "2%" &&
+				document.getElementById('t3ppsg').style.left < "2%"){
+					document.getElementById('t2p').style.left ="-85%"
+				}
+				break;
+				
+			case .21:
+				document.getElementById('t3pf').style.left = "2%"
+				display(10);
+					
+				var myDiv = document.getElementById('t2p');
+				myDiv.scrollTop = 0;
+				break;
+			case .22:
+				document.getElementById('t3ppsg').style.left = "2%"
+				display(10);
+					
+				var myDiv = document.getElementById('t2p');
+				myDiv.scrollTop = 0;
+				break;
+				
+		case.3:/*opens students*/
+		if(document.getElementById('t2s').style.left < "2%"){
+			document.getElementById('t2s').style.left = "2%"
+			}
+		else if(document.getElementById('t3sf').style.left == "2%"||
+				document.getElementById('t3ssi').style.left == "2%"){
+				display(2);
+			}
+		else if (document.getElementById('t3sf').style.left  < "2%" &&
+				document.getElementById('t3ssi').style.left < "2%"){
+				document.getElementById('t2s').style.left ="-85%"
+			}
+				break;
+				
+			case .36:
+				document.getElementById('t3sf').style.left = "2%"
+				display(10);
+					
+				var myDiv = document.getElementById('t2s');
+				myDiv.scrollTop = 0;
+				break;
+			case .39:
+				document.getElementById('t3ssi').style.left = "2%"
+				display(10);
+					
+				var myDiv = document.getElementById('t2s');
+				myDiv.scrollTop = 0;
+				break;
+				
+				
+				
+		case.4:/*opens directory*/
+				if(document.getElementById('t2d').style.left < "2%"){
+			document.getElementById('t2d').style.left = "2%"
+			}
+		else{
+			document.getElementById('t2d').style.left = "-100%"
+		}
+				break;
+				
+				
+				
+		case.5:/*opens guidance*/
+				if(document.getElementById('t2g').style.left < "2%"){
+			document.getElementById('t2g').style.left = "2%"
+			}
+		else if(document.getElementById('t3gg').style.left == "2%"||
+				document.getElementById('t3gde').style.left == "2%"){
+				display(2);
+			}
+		else if (document.getElementById('t3gg').style.left  < "2%" &&
+				document.getElementById('t3gde').style.left < "2%"){
+				document.getElementById('t2g').style.left ="-85%"
+			}
+				break;
+			case .51:
+				document.getElementById('t3gg').style.left = "2%"
+				display(10);
+					
+				var myDiv = document.getElementById('t2g');
+				myDiv.scrollTop = 0;
+				break;
+			case.53:
+				document.getElementById('t3gde').style.left = "2%"
+				display(10);
+					
+				var myDiv = document.getElementById('t2g');
+				myDiv.scrollTop = 0;
+				break;
+				
+		case .6:
+		if(document.getElementById('t2at').style.left < "2%"){
+			document.getElementById('t2at').style.left = "2%"
+			}
+		else if(document.getElementById('t3atf').style.left == "2%"||
+		document.getElementById('t3ath').style.left == "2%"){
+				display(2);
+			}
+		else if (document.getElementById('t3atf').style.left  < "2%"&&
+		document.getElementById('t3ath').style.left  < "2%"){
+				document.getElementById('t2at').style.left ="-85%"
+			}
+				break;
+			case .61:
+				document.getElementById('t3atf').style.left = "2%"
+				display(10);
+					
+				var myDiv = document.getElementById('t2at');
+				myDiv.scrollTop = 0;
+				break;
+			case .62:
+				document.getElementById('t3ath').style.left = "2%"
+				display(10);
+					
+				var myDiv = document.getElementById('t2at');
+				myDiv.scrollTop = 0;
+				break;
+}};
+</script>
+<body>
+
+<div id="fix">
 </div>
-<style>
 
-</style>
+<div id="header">
+		<a href="index.html"><img src="resources/Logo.png"></a>
+</div>
+<div id="nav">
+	<ul id="menu">
+        <a href="#"><li><button id="T1" onClick="display(0)"><img src="resources/menu.png" /></button></li></a>
+    	<a href="https://stonington.powerschool.com/public/"><li><img src="resources/powerschool.png"/></li></a>
+    	<a href="#"><li><img src="resources/contact-book'.png" /></li></a>
+    	<a href="#"><li id="lastItem"><img src="resources/calender-icon.png" /></li></a>
+    </ul>
+</div>
 
-    </div>
-  </div>
-<div id="main">
-<div id="nav-left">
-        <ul>
-            <li><a href="../../sidebar/announcements.html">Announcements</a></li>
-            <li><a href="http://shsbrownandwhite.org/" target="_blank">Brown & White</a></li>
-            <li><a href="../../sidebar/calendar.html">Calendar of Events</a></li>
-            <li><a href="http://www.casciac.org/ytt/?sc=Stonington&hc=CC0000" target="_blank">Today's Athletic Events</a></li>
-      </ul>
-         <ul>
-            <li><a href="../../sidebar/lmc.html">Library Media Center</a></li>
-            <li><a href="../../sidebar/directions.html">Directions to the School</a></li> 
+<div id="mainInfo">
+
+
+<div id="t1" class="t1">
+<button  id="title" onClick="display(1)"><p>Menu</p></button>
+<ul>
+	<button  onClick="display(.1)"><a href="#"><li>Administration</li></a></button>
+    <hr>
+    <button  onClick="display(.2)"><a href="#"><li>Parents</li></a></button>
+    <hr>
+ 	<button  onClick="display(.3)"><a href="#"><li>Students</li></a></button>
+    <hr>
+    <button  onClick="display(.4)"><a href="#"><li>Directory</li></a></button>
+    <hr>
+    <button  onClick="display(.6)"><a href="#"><li>Athletics</li></a></button>
+    <hr>
+    <button  onClick="display(.5)"><a href="#"><li>Guidance</li></a></button>
+</ul>
+</div>
+
+    <div id="t2a" class="t2" >
+    	<button  id="title" onClick="display(.1)"><p>Administration<p></button>
+        <ul >
+        	<button onClick="display(.11)"><a href="#"><li>Mission</li></a></button>
+            <hr>
+            <button><a href="#"><li>Academic Achievements</li></a></button>
+            <hr>
+            <button><a href="#"><li>Admin Team</li></a></button>
+            <hr>
+            <button onClick="display(.13)"><a href="#"><li>Building Usage</li></a></button>
+            <hr>
+            <button ><a href="#"><li>ESLs</li></a></button>
+            <hr>
+            <button onClick="display(.15)"><a href="#"><li>General Information</li></a></button>
+            <hr>
+            <button ><a href="#"><li>Report an act of Bullying</li></a></button>
+            <hr>
+            <button onClick="display(.17)"><a href="#"><li>schedules</li></a></button>
+            <hr>
+            <button ><a href="#"><li>Stonington Public Schools</li></a></button>
+            <hr>
+            <button onClick="display(.19)"><a href="#"><li>Staff Links</li></a></button>
+          
         </ul>
-        <ul>
-            <li><strong>PowerSchool</strong><li>
-                <ul>
-                    <li><a href="https://stonington.powerschool.com/public/" target="_blank">Parent & Student</a></li>
-                    <li><a href="https://stonington.powerschool.com/teachers/pw.html" target="_blank">Teachers</a></li>
-                    <li><a href="https://stonington.powerschool.com/subs/pw.html" target="_blank">Substitutes</a></li>
-                </ul>
-      </ul>
-         <ul>
-             <li><a href="http://jostensyearbooks.com?REF=A01069950" target="_blank">Yearbook</a></li>
-               <li><a href="http://stoningtoncart.rbapparelplus.com/" target="_blank">
-    School Store</a></li>
-            <li><a href="https://docs.google.com/a/stoningtonschools.org/forms/d/1mnmU8-ojXp9OcTmDwcMWSu0wo5_ykIjXPuDzVALlSSo/viewform?formkey=dFNhc3NZQUk4dFQyWDRfQkY2V09NMEE6MA" target="_blank">Report an Act of Bullying</a></li>
-            <li><a href="../../sidebar/websitemanagers.html">Website Managers</a></li>
-        </ul>
     </div>
-      
-      <div id="content">
-	  <!-- InstanceBeginEditable name="content" -->
-      <div id="full">
-      <h1> Project Safe Grad</h1>
-<h4><center>A Stonington High School Tradition:</center></h4>
-<p></p><center>The Class of 2016 marks 7 years. The class of 2016 encourages all families to view their blog: <a href="http://www.shs2016projectsafegrad.blogspot.com" id="normal">  www.shs2016projectsafegrad.blogspot.com</a>. The blog includes suggestions for underclassman families as well as many details for 2016 families.</center><p></p>
-      
-      <h1>FAQ's</h1>
-      
-      <div id="left">
-      
-      
-      <strong>What is Project Safe Grad?</strong>
-<p>
-An alcohol-free, all night party held at a special location in Southeastern Connecticut.
-</p>
-<br>
-<strong>What time is the party?</strong>
-<p>The party starts as soon as the graduation reception ends (buses leave at 9pm) and is over by 5am.
-</p>
-<br>
-<strong>What happens there?</strong>
-<p>The students will have a great time participating in a variety of fun and entertaining activities. Some of those activities may include paintball, a dance party, a variety show, a street carnival, bowling, swimming, etc.
-</p>
-
-<br>
-<strong>How much does the party cost?</strong>
-<p>When all is said and done, the class will need to collect $27,000 by May of Senior Year.<br><br>
-	<ul>
-		<li>Money is raised in three manners:
-        	<ol><li>Family Contribution</li>
-            <li>Fundraising</li>
-            <li>Corporate Donations.</li></ol></li>
-		<li>The graduating class's Project Safe Grad Committee will most likely begin collecting family contributions during the fall of sophomore year.  Then once again during the fall of both junior and senior years.  A typical requested contribution amount is $30 each year (in the fall) per student. Three installments would total $90 per student by the fall of senior year, which is a huge advance for your class as a whole.<li>
-		<li>During Senior Year, the class will fund raise and solicit corporations and local </li>
-<li>Keep in mind that the more the class collects ahead of time, the less the class will need to fund raise during Senior Year.  Senior Year is a very hectic time for most families, as you can imagine - so plan ahead for assured success.</li></li></li></ul>
-</p>
-<br>
-<strong>What identifies our students from other high schools that night?
-</strong>
-<p>Our students will all receive a brown SHS Senior tee-shirt to wear on that night and keep. Also our students will receive a SHS themed beach towel to use and keep as well. Students who choose not to attend the party will also receive these "graduation gifts".
-</p>
-<br>
-
-      </div>
-      <div id="right">
-      <br>
-      <strong>Who attends the party?</strong>
-<p>Graduated seniors and a handful of parent chaperones.</p>
-<br>
-<strong>How do the students get to the party?</strong>
-<p>Students are bussed from Stonington High School to and from. Students are not allowed to drive to the party.  Each student is assigned a bus number and will board that bus all night. The buses transport students from the high school to the event eenue and continue all night as the class moves as a whole from activity to activity.
-</p>
-<br>
-<strong>Will there be food?  Is it included?</strong>
-<p>Yes, there will be lots of food, from meal items like hamburgers to dessert items like ice cream. The students will be fed well.
-</p>
-<br>
-<strong>What happens if the class does not collect/raise the $27,000 by Spring of Senior Year?</strong>
-<p>If a class does not raise the full amount by Spring of Senior Year, then a per student ticket price will be required to make up the shortage.</p>
-<br>
-<strong>How many graduating seniors typically attend?</strong>
-<p>On average, 93% of the senior class attends this party.
-</p>
-<br>
-<strong>Where is the location?</strong>
-<p>Although the party is held in the same location each year, we will not post it here.  Many students with older siblings know the location; however, many more students do not know and enjoy not knowing. So it is not technically a surprise, but we will be vague in our posts. The committee is happy to share the location with any parent who asks.
-</p>
-<strong>How does a class avoid not having to pay a per student ticket fee in the Spring of Senior Year?</strong>
-<p><ul>
-<li>During underclassman years begin collecting family contributions.</li>
-<li>As a parent, react when a request for a contribution is asked for.  Send in the requested amount.</li>
-<li>Or, if an amount is not specifically requested, send in an amount that you feel is appropriate - every contribution helps.  Remember the price is approximately $140 per student if the event was solely funded by the parents.</li>
-<li>Join the committee and plan fundraisers.</li>
-<li>Participate in all fundraisers.</li>
-<li>Send out donation request to corporations and local businesses during early Senior Year.</li>
-<li>With proper planning and participation, the class will be successful!</li></ul>
-</p>
-
-      
-      
-      </div>
-      </div>
-      <!-- InstanceEndEditable -->
-	 
     
-      </div>
-  </div>
-<div id="footer">
-  	<h3><a href="http://StoningtonHigh.org/">Stonington High School</a></h3>
-    <h3>176 South Broad Street | Pawcatuck | Connecticut | 06379 </h3>
-        <h3>PHONE <a href="tel:+18605995781" >860.599.5781</a> |
- FAX <a href="tel:+14014805212" id="phone">860.599.5784</a> |
-        GUIDANCE <a href="tel:+18605992180" >860.599.2180</a> |         <a href="https://twitter.com/SHSadStaff" class="twitter-follow-button" data-show-count="false" >   </a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+    <div id="t2p" class="t2" >
+    <button  id="title" onClick="display(.2)"><p>Parents</p></button>
+    	<ul>
+        <button  onClick="display(.21)"><a href="#"><li>Forms</li></a></button>
+        <hr>
+        <button  onClick="display(.22)"><a href="#"><li>Project Safe Grad</li></a></button>
+        <hr>
+        <button><a href="#"><li>Report Cards</li></a></button>
+        <hr>
+        <button><a href="#"><li>Senior Privilege</li></a></button>
+        <hr>
+        <button><a href="#"><li>Statement of CT Health Assessment</li></a></button>
+    </ul>
+    </div>
+    
+    
+    <div id="t2s" class="t2">
+    <button  id="title" onClick="display(.3)"><p>Students</p></button>
+        <ul>
+        <button><a href="#"><li>Course Descriptions</li></a></button>
+        <hr>
+        <button><a href="#"><li>Exam Schedule</li></a></button>
+        <hr>
+        <button onClick="display(.36)"><a href="#"><li>Forms</li></a></button>
+        <hr>
+        <button><a href="#"><li>National Honor Society</li></a></button>
+        <hr>
+        <button><a href="#"><li>Opportunities Handbook</li></a></button>
+        <hr>
+        <button><a href="#"><li>Senior Project</li></a></button>
+        <hr>
+        <button><a href="#"><li>Student Agenda</li></a></button>
+        <hr>
+        <button><a href="#"><li>Student Guidelines</li></a></button>
+        <hr>
+        <button  onClick="display(.39)"><a href="#" id="hassub"><li>Summer Information</li></a></button>
+        <hr>
+        <button><a href="#" id="hassub"><li>TurnItIn</li></a></button>
+        <br><br>
+    </ul>
+    </div>
 
-<div class="fb-follow" data-href="https://www.facebook.com/pages/Stonington-High-School/714559195259553" data-colorscheme="light" data-layout="button" data-show-faces="false"></div>
-<div id="fb-root">
+    
+    <div id="t2d" class="t2">
+    <button  id="title" onClick="display(.4)"><p>Directory</p></button>
+        <ul>
+        <button><a href="#"><li>Administration</li></a></button>
+        <hr>
+        <button><a href="#"><li>Guidance</li></a></button>
+        <hr>
+        <button><a href="#"><li>Support Staff</li></a></button>
+        <hr>
+        <button><a href="#"><li>Teachers A-Z</li></a></button>
+        <hr>
+        <button><a href="#"><li>Teachers by Subject</li></a></button>
+    </ul>
+    </div>
+    
+    
+    <div id="t2at" class="t2">
+    <button  id="title" onClick="display(.6)"><p>Athletics</p></button>
+        <ul>
+        <button onClick="display(.62)"><a href="#"><li>Home</li></a></button>
+        <hr>
+        <button><a href="#"><li>Athletic&nbsp;Announcements</li></a></button>
+        <hr>
+        <button><a href="#"><li>Athletics&nbsp;events</li></a></button>
+        <hr>
+        <button><a href="#"><li>CIAC</li></a></button>
+        <hr>
+        <button><a href="#"><li>Boosters</li></a></button>
+        <hr>
+        <button><a href="#"><li>Coaches</li></a></button>
+		<hr>
+        <button><a href="#"><li>Directors</li></a></button>
+		<hr>
+        <button><a href="#"><li>ECC&nbsp;Stie</li></a></button>
+		<hr>
+        <button onClick="display(.61)"><a href="#"><li>Forms</li></a></button>
+		<hr>
+        <button><a href="#"><li>Handbook</li></a></button>
+		<hr>
+        <button><a href="#"><li>Hall&nbsp;Of&nbsp;Fame</li></a></button>
+		<hr>
+        <button><a href="#"><li>App&nbsp;Download</li></a></button>
+		<hr>
+        <button><a href="#"><li>Twitter</li></a></button>
 
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    </ul>
+    </div>
+    
+    
+    <div id="t2g" class="t2">
+    <button  id="title" onClick="display(.5)"><p>Guidance</p></button>
+        <ul>
+        <button onClick="display(.51)"><a href="#"><li>Grade</li></a></button>
+        <hr>
+        <button><a href="#"><li>Transcript Requests</li></a></button>
+        <hr>
+        <button onClick="display(.53)"><a href="#"><li>Dual Enrollment</li></a></button>
+        <hr>
+        <button><a href="#"><li>Career Center</li></a></button>
+        <hr>
+        <button><a href="#"><li>Naviance</li></a></button>
+        <hr>
+        <button><a href="#"><li>SAT and ACT</li></a></button>
+        <hr>
+        <button><a href="#"><li>Student Success Plan</li></a></button>
+        <hr>
+        <button><a href="#"><li>College and Post Grad Planning</li></a></button>
+        <br><br>
+    </ul>
+    </div>
+    
+<div id="t3am" class="t3">
+    <button id="title" onClick="display(2)"><p>Mission</p></button>
+    <ul>
+    <a href="#"><li>Core Values</li></a> 
+    <hr>
+	<a href="#"><li>Beliefs</li></a>
+    <hr>
+    <a href="#"><li>Student Expectations of Learning</li></a>
+</ul>
 </div>
 
- </h3>
- 
- <div id="managementcontact">
- <p>Webmaster's Email<br>
- <a href="mailto:shswebmaster@stoningtonschools.org">SHSWebmaster@StoningtonSchools.org</a></p>
- 
-  </div>
+    <div id="t3abu" class="t3">
+        <button id="title" onClick="display(2)"><p>Building&nbsp;Usage</p></button>
+        <ul>
+        <a href="#"><li>Calendar</li></a>
+        <hr>
+        <a href="#"><li>Forms</li></a>
+    </ul>
+    </div>
+
+<div id="t3agi" class="t3">
+    <button id="title" onClick="display(2)"><p>General&nbsp;Information</p></button>
+    <ul>
+    <a href="#"><li>Advisory</li></a> 
+    <hr>
+	<a href="#"><li>Mission Statement</li></a>
+    <hr>
+    <a href="#"><li>Security</li></a>
+    <hr>
+    <a href="#"><li>Song</li></a>
+</ul>
 </div>
+
+<div id="t3as" class="t3">
+    <button id="title" onClick="display(2)"><p>Schedules</p></button>
+    <ul>
+    <a id="sub2" href="#"><li>Bell Schedule</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>District Calendar</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Exam Schedule</li></a>
+</ul>
 </div>
+
+<div id="t3asl" class="t3">
+    <button id="title" onClick="display(2)"><p>Staff&nbsp;Links</p></button>
+    <ul>
+    <a id="sub2" href="#"><li>BLTV</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Discipline Report</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Email Lession Plans</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Forms</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>ProTaxx</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Teacher Handbook</li></a>
+</ul>
+</div>
+
+<div id="t3pf" class="t3">
+    <button id="title" onClick="display(2)"><p>Parent&nbsp;Forms</p></button>
+    <ul>
+    <a id="sub2" href="#"><li>Athletics and Extracurricular Contact Form</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Acetaminophen and<br>Ibuprofen Form</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Emergency Care Plan and Medical Authorization Form</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Emergency Information Form</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Field Trip Permission Slip</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Medicine Administration Authorization Form</li></a>
+</ul>
+</div>
+
+<div id="t3ppsg" class="t3">
+    <button id="title" onClick="display(2)"><p>Project&nbsp;Safe&nbsp;Grad</p></button>
+    <ul>
+    <a id="sub2" href="#"><li>FAQ</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Blog</li></a>
+</ul>
+</div>
+
+<div id="t3sf" class="t3">
+    <button id="title" onClick="display(2)"><p>Student&nbsp;Forms</p></button>
+   <ul>
+    <a id="sub2" href="#"><li>Athletics and<br>Extracurricular<br>Contact Form</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Parking Application</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Senior Privilege</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Working Papers</li></a>
+</ul>
+</div>
+
+<div id="t3ssi" class="t3">
+    <button id="title" onClick="display(2)"><p>Summer&nbsp;Information</p></button>
+    <ul>
+    <a id="sub2" href="#"><li>Summer Reading</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Summer School</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Summer Work</li></a>
+</ul>
+</div>
+
+
+<div id="t3gg" class="t3">
+    <button id="title" onClick="display(2)"><p>Summer&nbsp;Information</p></button>
+    </ul>
+    <a id="sub2" href="#"><li>Grade 9</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Grade 10</li></a>
+    <hr>
+    <a id="sub2" href="#"><li>Grade 11</li></a>
+    <hr>
+    <a href="#" id="sub2"><li>Grade 12</li></a>
+</ul>
+</div>
+
+<div id="t3gde" class="t3">
+    <button id="title" onClick="display(2)"><p>Dual&nbsp;Enrollment</p></button>
+    <ul>
+    <a href="#" id="sub2"><li>AP</li></a>
+    <hr>
+    <a href="#" id="sub2"><li>ECE</li></a>
+    <hr>
+    <a href="#" id="sub2"><li>CCP</li></a>
+    <hr>
+    <a href="#" id="sub2"><li>NEIT</li></a>
+</ul>
+</div>
+
+<div id="t3ath" class="t3">
+	<button id="title" onClick="display(2)"><p>Home</p></button>
+    <ul>
+    <a href="#" id="sub2"><li>Shs Sports app (iOS)</li></a>
+    <hr>
+    <a href="#" id="sub2"><li>SHS Sports app (Android)</li></a>
+    <hr>
+    <a href="#" id="sub2"><li>Family ID Program</li></a>
+</ul>
+</div>
+
+<div id="t3atf" class="t3">
+	<button id="title" onClick="display(2)"><p>Athletic&nbsp;Forms</p></button>
+    <ul>
+    <a href="#" id="sub2"><li>Cardiac&nbsp;Arrest<br>Forms</li></a>
+    <hr>
+    <a href="#" id="sub2"><li>Concessions<br>Sign-Up</li></a>
+    <hr>
+    <a href="#" id="sub2"><li>Concussion<br>Form</li></a>
+    <hr>
+    <a href="#" id="sub2"><li>Health Questionare</li></a>
+    <hr>
+    <a href="#" id="sub2"><li>Transportation<br>Form</li></a>
+</ul>
+</div>
+
+
+
+<?php
+include ('psg1.php');
+include ('../inc/Project Safe Grad/psg2.php');
+include ('../inc/Project Safe Grad/psg3.php');
+?>
+
+</div>
+<footer>
+<p>Stonington High School | 176 South Broad Street | Pawcatuck | CT 06379</p>
+<p>PHONE&nbsp;860.599.5781 | FAX&nbsp;860.599.5784 | GUIDANCE&nbsp;860.599.2180 |<a href="https://twitter.com/SHSadStaff" class="twitter-follow-button" data-show-count="false">Follow @SHSadStaff</a> 
+</p>
+</footer>
+</p>
 </body>
-<!-- InstanceEnd --></html>
+</html>
