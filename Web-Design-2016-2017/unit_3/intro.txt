@@ -4,3 +4,4 @@ Unit 3 is focused on using some more advanced HTML tags
         video
         img
         iframe
+      students will be able to use HTML attributes
