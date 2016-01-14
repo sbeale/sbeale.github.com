@@ -1,0 +1,8 @@
+This Unit is on web foundations
+  Unit goals
+    Students will be able to
+      explain the history of the web
+      demonstrate understanding of client vs serve side of webpages
+      explain how search engines work
+      explain the structure of the web
+      look at code and WYSIWYG editors
