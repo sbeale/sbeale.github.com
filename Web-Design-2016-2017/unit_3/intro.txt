@@ -1,0 +1,6 @@
+Unit 3 is focused on using some more advanced HTML tags
+  Students should be able to
+      identify and use more advanced tags with attributes
+        video
+        img
+        iframe
