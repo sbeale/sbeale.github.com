@@ -1,0 +1,13 @@
+This unit is focused on your web foundations
+  students will be able to
+    create a webpage on their github
+    identify different parts of a webpage
+    use basic tags on a webpage
+      doctype
+      div
+      p
+      h
+      lists
+      links
+      comments
+      
