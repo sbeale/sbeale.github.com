@@ -4,5 +4,6 @@ This Unit is on web foundations
       explain the history of the web
       demonstrate understanding of client vs serve side of webpages
       explain how search engines work
+      what is SEO
       explain the structure of the web
       look at code and WYSIWYG editors
