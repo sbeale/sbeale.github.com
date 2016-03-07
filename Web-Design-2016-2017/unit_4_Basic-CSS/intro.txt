@@ -1,1 +1,4 @@
 students will learn the  basics of css code
+    What is CSS
+    What are the syntaxs of CSS
+    What are some CSS references
