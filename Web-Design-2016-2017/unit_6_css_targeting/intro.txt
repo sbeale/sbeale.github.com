@@ -1,1 +1,6 @@
 students will learn about targeting css at particular size pages
+    how to target a Class
+    how to target an ID
+    how to target 2 tags and once
+    how to target screen size
+    
