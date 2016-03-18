@@ -1,1 +1,3 @@
 students will learn about positioning with css
+    relative vs absolute vs fixed
+    left, right, top, bottom
