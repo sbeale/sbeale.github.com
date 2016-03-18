@@ -1,1 +1,24 @@
 this file is a catalog of assignments for students who sign up for this class
+q1
+  Unit 1 - basics of the web  
+    Unit 2 - html foundations
+    Unit 3 - advanced html
+    Unit 4 - basics of CSS
+q2
+    Project 1
+    Unit 5 - targeting css
+    unit 6 - postioning css
+    Project 2
+    midtrem
+q3
+    unit 7 - dreamweaver
+    unit 8 - fluid grid
+    unit 9-  JavaScript
+    project 3
+q4
+    unit 10 - server side
+    project 4
+    project 5
+    Assemble protfolio
+
+
