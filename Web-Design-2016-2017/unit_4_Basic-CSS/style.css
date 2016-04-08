@@ -1,4 +1,6 @@
  /*an * tag  addresses all items in the document*/
+html{background-color:white;
+}
  body{ height 500px;
       width:500px;
       background-color:purple;
