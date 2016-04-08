@@ -1,9 +1,14 @@
+ /*an * tag  addresses all items in the document*/
+ body{ height 500px;
+      width:500px;
+      background-color:purple;
+ *{
+   color:red;
+ }
   p{
-    /*notice the syntax aroudn the command*/
-   color:blue; 
+    color:blue; 
+   
   }
-    /*notice how the border has multiple thing it changes
-    width, heights, and text sizes can be measured in multiple ways %, px, em*/
   div{
     border:solid 1px #F0f;
     width:50%;
