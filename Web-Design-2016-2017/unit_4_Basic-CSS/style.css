@@ -1,0 +1,11 @@
+  p{
+    /*notice the syntax aroudn the command*/
+   color:blue; 
+  }
+    /*notice how the border has multiple thing it changes
+    width, heights, and text sizes can be measured in multiple ways %, px, em*/
+  div{
+    border:solid 1px #F0f;
+    width:50%;
+    height 100px;
+  }
