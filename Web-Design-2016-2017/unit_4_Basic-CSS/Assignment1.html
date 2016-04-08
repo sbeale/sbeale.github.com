@@ -7,10 +7,25 @@
 <!--the html style tag tells the document everything inbewteen is not written in HTML but in CSS-->
 <style>
   /*this is a comment in CSS*/
+  /*for CSS we must first target an element in HTML to change.  to start we will target
+  the tags and later learn to be more specific.
+  to start we will target a p tag*/
+  p{
+    /*notice the syntax aroudn the command*/
+   color:blue; 
+  }
+  div{
+    border:solid 1px #FFf;
+  }
 </style>
 
 
   <h1>intro to  CSS</h1>
-  <p> this text is blue</p>
+  <div>
+  <p>this text is blue</p>
+  <!--here is one way to override a css style that is attached or embeded.  I changed it on the
+  one specific item  in this case the style is an attribute tag of the P-->
+  <p style="color:red;"</p>>this text is red</p>
+  </div>
 </body>
 </html
