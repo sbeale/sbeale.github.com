@@ -1,4 +1,4 @@
- /*an * tag  addresses all items in the document*/
+ /*an * tag  addresses all items in the document but notice how it gets over riden by the more specific targeted tag*/
  * {
    color:red;
  }
@@ -9,6 +9,7 @@ html{background-color:white;
       background-color:purple;
 }
   p{
+   font-size:14px;
     color:blue; 
    
   }
