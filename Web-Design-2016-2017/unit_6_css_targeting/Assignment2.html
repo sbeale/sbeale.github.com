@@ -7,9 +7,27 @@
 </head>
 <body>
   <h1>Targeting by ID</h1>
+  <!--An Id is an attribute that gives an tag a special name.  \
+  this will allow you to do things such as...
+    use them as jump points or a link within your page
+    give them properties that are different then the rest of the code
+  ID tags should
+      only be used once per page
+      never has the same name as a regular tag-->
+  <style>
+  /* we use a "#" to note taht the css is targeting and ID by that name and not an html element*/
+    #second{
+      text-align:center;
+      color:red;
+      background-color:blue;
+    }
+  </style>
   <div>
+    <p>this div has no ID</p>
    </div>
-   
+   <div id="second">
+     <p> this div has an ID</p>
+   </div>
   <p>In this assignment I learned how to ...(show me atleast 3 different properties you can set using css)</p>
 </body>
 </html>
