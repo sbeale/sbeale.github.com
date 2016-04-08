@@ -7,9 +7,25 @@
 </head>
 <body>
   <h1>Targeting by Class</h1>
+   <!--A class is an attribute that gives an tag a special name.  
+   class attributes 
+      can be used more then once per page
+      can be may be used in conjuction with an ID
+      can never has the same name as a regular tag-->
+  <style>
+  /* we use a "." to note taht the css is targeting and ID by that name and not an html element*/
+    .second{
+      text-align:center;
+      color:red;
+      background-color:blue;
+    }
+  </style>
   <div>
+    <p>this div has no ID</p>
    </div>
-   
+   <div class="second">
+     <p> this div has an ID</p>
+     </div>
   <p>In this assignment I learned how to ...(show me atleast 3 different properties you can set using css)</p>
 </body>
 </html>
