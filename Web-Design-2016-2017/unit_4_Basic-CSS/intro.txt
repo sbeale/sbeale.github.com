@@ -3,3 +3,4 @@ students will learn the  basics of css code
     What are the syntaxs of CSS
     What are some CSS references
     Embedding CSS vers Attaching CSS
+    Div set up
