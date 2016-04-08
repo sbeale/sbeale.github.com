@@ -10,4 +10,5 @@ This unit is focused on your web foundations
       lists
       links
       comments
-      
+      tables
+      images
