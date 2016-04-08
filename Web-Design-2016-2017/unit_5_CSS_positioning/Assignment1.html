@@ -11,14 +11,26 @@
     we can alter their position left, right, top, and bottomg
     there is also a Z-index which allows us to work with depth
     None of those tage can be made before you declare which positioning system you are using-->
+    
+    <!-- there are 4 positioning values
+    static - this makes an element fall where it would by default there is no z-index here
+    fixed - positions an element relative to the view port ie it will scroll with the page
+    relative - this makes an element relative to itself and allows movement and introduces z-index
+    absolute - this makes elements appear exactly where you want every time
+    
+    both relative and absolute defualt their values back to the parent object and if there is no parent
+    object it defaults back to html.  a parent object for absolute is the last absolute or relative, a parent object for
+    relative is the last absolute.
+    -->
   <div>
    <p>this tag didn't change</p>
+   </div style="postition:absolute;">
+   <p>absolute tag</p>
+   <div style="position:relative;">
+     <p>relative tag</p>
    </div>
-   <div>
-   </div>
-   <div>
-   </div>
-   <div>
+   <div style="position: fixed;">
+     <p>fixed tag</p>
    </div>
    
   <p>In this assignment I learned how to ...(show me atleast 3 different properties you can set using css)</p>
