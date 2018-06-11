@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tic Tax Toe</title>
+<style>
+	/*add styling here*/
+	td{border: black solid 5px;
+	height:50px;
+		width:50px;
+		text-align: center;
+	}
+	.container h3{display:inline;}	
+</style>
+<script>
+	turn=0
+	p1score=0
+	p2score=0
+	function pick(event,cell){
+		
+		//row = cell.parentNode.id;		
+		//column= cell.className;
+		//console.log( row + column)
+		/*
+		0=left mouse button
+		2=right mouse button
+		*/
+		//console.log(event.button)
+		if (event.button == 0){
+			//left button
+			player=1
+			cell.innerHTML="1"
+			cell.value = "1"
+		}
+		else if(event.button == 2){
+			//right button
+			player=2 
+			cell.innerHTML="2"
+			cell.value = "2"
+		}
+	checkwin(player)	
+	}
+	
+function checkwin(player){
+		turn+=1
+		//console.log("turn="+turn)
+		wincol=""
+		winrow=""
+		windagl=""
+		windagr=""
+		wincondition = player*100 + player*10 +player
+		//console.log("wincondtion="+wincondition)
+		win="false"		
+		for(r = 0; r <3; r++){
+				//checks diagonal
+					checkcell = document.getElementsByClassName("C"+r)[r].value
+					windagl += checkcell
+					//console.log("dagl="+windagl)
+					
+					checkcell = document.getElementsByClassName("C"+r)[2-r].value
+					windagr += checkcell
+					//console.log("dagr="+windagr)
+					
+					if ((windagl == wincondition)||(windagr == wincondition)){
+						win="true"
+						reset(player)
+						}
+				if (win="false"){
+				wincol=""
+				winrow="";
+				for (c = 0; c < 3; c++) {	
+					//checks row
+					checkcell = document.getElementsByClassName("C"+r)[c].value
+					winrow += checkcell
+					//console.log("row="+winrow)
+					//checks columns
+					checkcell = document.getElementsByClassName("C"+c)[r].value
+					wincol += checkcell
+					//console.log("col="+wincol)
+					if ((winrow == wincondition)||(wincol == wincondition)){
+						win="true";
+						reset(player)
+						
+					}
+						
+				}
+				
+			}
+		}
+	if (turn==9){
+		reset(3)}
+}
+function reset(player){
+//we will be working in here today
+}
+	
+	
+
+</script>
+</head>
+
+<body>
+	<header>
+		<h1>Tic Tax Toe</h1>
+	</header>
+	<section>
+		<h2>Score
+		<!--Add score here-->
+			<div class="container" id="P1">
+				<h3>player 1 = </h3>
+				<h3 id="P1score">0</h3>
+			</div>
+			<div class="container" id="P2">
+				<h3>player 2 = </h3>
+				<h3 id="P2score">0</h3>
+			</div>
+			</h2>
+	</section>
+	<section>
+		<!--gameboard here-->
+		<table  oncontextmenu="return false;">
+			<tr id="R0">
+				<td class="C0" onMouseDown="pick(event,this)"></td>
+				<td class="C1" onMouseDown="pick(event,this)"></td>
+				<td class="C2" onMouseDown="pick(event,this)"></td>
+			</tr>
+			<tr id="R1">
+				<td class="C0" onMouseDown="pick(event,this)"></td>
+				<td class="C1" onMouseDown="pick(event,this)"></td>
+				<td class="C2" onMouseDown="pick(event,this)"></td>
+			</tr>
+			<tr id="R2">
+				<td class="C0" onMouseDown="pick(event,this)"></td>
+				<td class="C1" onMouseDown="pick(event,this)"></td>
+				<td class="C2" onMouseDown="pick(event,this)"></td>
+			</tr>	
+		</table>
+	</section>	
+	<footer>
+		<p>CopyWrite 6-11-2018</p>
+	</footer>
+</body>
+</html>
