@@ -17,7 +17,8 @@
 	p1score=0
 	p2score=0
 	function pick(event,cell){
-		
+		if(cell.innerHTML ==""){
+			
 		//row = cell.parentNode.id;		
 		//column= cell.className;
 		//console.log( row + column)
@@ -39,9 +40,8 @@
 			cell.value = "2"
 			
 		}
-	checkwin(player)	
-	}
-	
+		checkwin(player)	
+		}
 function checkwin(player){
 		turn+=1
 		//console.log("turn="+turn)
