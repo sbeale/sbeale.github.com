@@ -29,16 +29,15 @@
 		if (event.button == 0){
 			//left button
 			player=1
-			cell.innerHTML="1"
+			cell.innerHTML="X"
 			cell.value = "1"
-			cell.background="green"
 		}
 		else if(event.button == 2){
 			//right button
 			player=2 
-			cell.innerHTML="2"
+			cell.innerHTML="O"
 			cell.value = "2"
-			cell.background="red"
+			
 		}
 	checkwin(player)	
 	}
