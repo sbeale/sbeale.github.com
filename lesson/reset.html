@@ -18,13 +18,13 @@
 	p2score=0
 	function pick(event,cell){
 		
-		//row = cell.parentNode.id;		
-		//column= cell.className;
-		//console.log( row + column)
-		/*
+		row = cell.parentNode.id;		
+		column= cell.className;
+		console.log( row + column)
+		
 		0=left mouse button
 		2=right mouse button
-		*/
+		
 		//console.log(event.button)
 		if (event.button == 0){
 			//left button
@@ -49,7 +49,7 @@ function checkwin(player){
 		windagl=""
 		windagr=""
 		wincondition = player*100 + player*10 +player
-		//console.log("wincondtion="+wincondition)
+		console.log("wincondtion="+wincondition)
 		win="false"		
 		for(r = 0; r <3; r++){
 				//checks diagonal
