@@ -12,59 +12,11 @@
 	}
 	.container h3{display:inline;}	
 </style>
-
-</head>
-
-<body>
-	<header>
-		<h1>Tic Tax Toe</h1>
-	</header>
-	<section>
-		<h2>Score
-		<!--Add score here-->
-			<div class="container" id="P1">
-				<h3>player X = </h3>
-				<h3 id="P1score">0</h3>
-			</div>
-			<div class="container" id="P2">
-				<h3>player O = </h3>
-				<h3 id="P2score">0</h3>
-			</div>
-			</h2>
-	</section>
-	<section>
-		<!--gameboard here-->
-		<table  oncontextmenu="return false;">
-			<tr id="R0">
-				<td class="C0" onMouseDown="pick(event,this)"></td>
-				<td class="C1" onMouseDown="pick(event,this)"></td>
-				<td class="C2" onMouseDown="pick(event,this)"></td>
-			</tr>
-			<tr id="R1">
-				<td class="C0" onMouseDown="pick(event,this)"></td>
-				<td class="C1" onMouseDown="pick(event,this)"></td>
-				<td class="C2" onMouseDown="pick(event,this)"></td>
-			</tr>
-			<tr id="R2">
-				<td class="C0" onMouseDown="pick(event,this)"></td>
-				<td class="C1" onMouseDown="pick(event,this)"></td>
-				<td class="C2" onMouseDown="pick(event,this)"></td>
-			</tr>	
-		</table>
-	</section>	
-	<footer>
-		<p>CopyWrite 6-11-2018</p>
-		<a href="https://github.com/sbeale/sbeale.github.com/tree/master/lesson">folder with file</a>
-	</footer>
-</body>
-</html>
 <script>
 	turn=0
 	p1score=0
 	p2score=0
-function pick(event,cell){
-	
-			
+function pick(event,cell){		
 		row = cell.parentNode.id;		
 		column= cell.className;
 		console.log( row + column)
@@ -87,6 +39,7 @@ function pick(event,cell){
 		
 		checkwin(player)	
 		}
+}
 function checkwin(player){
 		turn+=1
 		console.log("turn="+turn)
@@ -173,7 +126,50 @@ function reset(player){
 		}
 	}
 }
-	
-	
-
 </script>
+</head>
+
+<body>
+	<header>
+		<h1>Tic Tax Toe</h1>
+	</header>
+	<section>
+		<h2>Score
+		<!--Add score here-->
+			<div class="container" id="P1">
+				<h3>player X = </h3>
+				<h3 id="P1score">0</h3>
+			</div>
+			<div class="container" id="P2">
+				<h3>player O = </h3>
+				<h3 id="P2score">0</h3>
+			</div>
+			</h2>
+	</section>
+	<section>
+		<!--gameboard here-->
+		<table  oncontextmenu="return false;">
+			<tr id="R0">
+				<td class="C0" onMouseDown="pick(event,this)"></td>
+				<td class="C1" onMouseDown="pick(event,this)"></td>
+				<td class="C2" onMouseDown="pick(event,this)"></td>
+			</tr>
+			<tr id="R1">
+				<td class="C0" onMouseDown="pick(event,this)"></td>
+				<td class="C1" onMouseDown="pick(event,this)"></td>
+				<td class="C2" onMouseDown="pick(event,this)"></td>
+			</tr>
+			<tr id="R2">
+				<td class="C0" onMouseDown="pick(event,this)"></td>
+				<td class="C1" onMouseDown="pick(event,this)"></td>
+				<td class="C2" onMouseDown="pick(event,this)"></td>
+			</tr>	
+		</table>
+	</section>	
+	<footer>
+		<p>CopyWrite 6-11-2018</p>
+		<a href="https://github.com/sbeale/sbeale.github.com/tree/master/lesson">folder with file</a>
+	</footer>
+</body>
+</html>
+
