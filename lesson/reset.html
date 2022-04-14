@@ -72,11 +72,11 @@ function checkwin(player){
 					//checks row
 					checkcell = document.getElementsByClassName("C"+r)[c].value
 					winrow += checkcell
-					//console.log("row="+winrow)
+					console.log("row="+winrow)
 					//checks columns
 					checkcell = document.getElementsByClassName("C"+c)[r].value
 					wincol += checkcell
-					//console.log("col="+wincol)
+					console.log("col="+wincol)
 					if ((winrow == wincondition)||(wincol == wincondition)){
 						win="true";
 						reset(player)
